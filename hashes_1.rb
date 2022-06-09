@@ -132,4 +132,21 @@ emails = [
   "day_sent" => "yesterday",
   "send_success" => true,
   "characters" => 501
-},
+  },
+  {
+"sender" => "carter.k.ball@gmail.com",
+"recipient" => "jhenryrowland@gmail.com",
+"day_sent" => "today",
+"send_success" => true,
+"characters" => 1000
+  },
+  {
+"sender" => "carter.k.ball@gmail.com",
+"recipient" => "adelaidehking@gmail.com",
+"day_sent" => "Wednesday",
+"send_success" => false,
+"characters" => 300
+  },
+]
+
+p emails
