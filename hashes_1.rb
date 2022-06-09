@@ -50,16 +50,30 @@ p foods
 # Declare a variable that stores hash. Each key should be an attribute of an email and each
 # value should be some appropriate value for that key. Work to have at least 5 key-value pairs.
 
+email = {
+  "sender" => "carter.k.ball@gmail.com",
+  "recipient" => "sibalgo13@gmail.com",
+  "day_sent" => "yesterday",
+  "send_success" => true,
+  "characters" => 501
+  }
+
 # Write code that prints your email hash to the terminal.
+
+p email
 
 
 # Write code that prints all of the 'keys' of the email hash
 # you created above:
 # YOUR CODE HERE
 
+p email.keys
+
 # Write code that prints all of the 'values' of the email hash
 # you created above:
 # YOUR CODE HERE
+
+p email.values
 
 
 #-------------------
@@ -110,3 +124,12 @@ p posts[0]
 # YOU DO: Create an array of at least 3 EMAIL Hashes, using the same
 # key-value pairs you used in your email Hash above.
 # Then, print the email Array to the Terminal.
+
+emails = [
+  {
+  "sender" => "carter.k.ball@gmail.com",
+  "recipient" => "sibalgo13@gmail.com",
+  "day_sent" => "yesterday",
+  "send_success" => true,
+  "characters" => 501
+},
